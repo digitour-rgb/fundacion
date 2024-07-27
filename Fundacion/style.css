@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{ 
+    font-family: "Poppins", sans-serif; 
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(
+      rgba(0,0,0,0.2),
+      rgba(0,0,0,0.2)),
+     url(imagenes2/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh; /* Puedes ajustar la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+}
+
+.fundacion {
+    padding: 5px 0;
+    background-color: #E1E2E6;
+    position: relative;
+    width: 75%;
+    margin: 0 auto; /* Asegura que el contenedor esté centrado */
+}
+
+.fundacion-content {
+    text-align: center;
+}
+
+.fundacion-content h1{
+    font-size: 35px;
+    line-height: 70px;
+    background-color: rgba(128, 128, 128, 0.5); 
+    text-transform: uppercase;
+    padding: 0 15%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.txt-p, .txt-p2, .txt-p3 {
+    font-size: 15px;
+    color: #000000;
+    padding: 0 10%;
+    margin-bottom: 35px;
+    text-align: justify; 
+}
+
+@media(max-width:991px) {
+
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+}
